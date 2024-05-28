@@ -1,8 +1,15 @@
 <div id="nav-right">
     <h3 id="title">History</h3>
     <hr class="text-white">
-
     <div class="list-group">
-        <button class="list-group-item  list-group-item-action ">Valorant</button>
+        <button
+            *ngFor="let tag of List_Tag"
+            class="list-group-item  list-group-item-action "
+            (click)="emit_Tag(tag)"
+        >
+            {{tag | titlecase}}
+        </button>
     </div>
+
+
 </div>

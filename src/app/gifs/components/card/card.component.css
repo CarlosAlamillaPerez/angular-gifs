@@ -1,0 +1,15 @@
+.card{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background: #202020;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    max-width: 14em;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
